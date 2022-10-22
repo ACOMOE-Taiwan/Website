@@ -1,4 +1,4 @@
-# Docusaurus 2
+# ACOMOE | 心有所向，日復一日，必有精進
 
 This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed to Vercel with zero configuration.
 
