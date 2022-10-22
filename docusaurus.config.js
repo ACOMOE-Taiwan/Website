@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ACOMOE',
-  tagline: '心有所向，日复一日，必有精进',
+  tagline: '心有所向，日復一日，必有精進',
   url: 'https://www.aco.moe',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-tw',
-    locales: ['zh-Hans', 'zh-tw','en','jp'],
+    locales: ['zh-cn', 'zh-tw','en','jp'],
   },
 
   presets: [
