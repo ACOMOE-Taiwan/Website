@@ -54,7 +54,8 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} *
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} **/
+    ({
     announcementBar: {
       id: 'support_us',
       content: '本站仍在建設中，您可以關注我們<a href="https://www.bc413.com/categories/acomoe.46/">位於中國大陸的論壇</a>來獲得最新消息,
