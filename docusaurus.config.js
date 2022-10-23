@@ -54,8 +54,15 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} *
+    announcementBar: {
+      id: 'support_us',
+      content: '本站仍在建設中，您可以關注我們<a href="https://www.bc413.com/categories/acomoe.46/">位於中國大陸的論壇</a>來獲得最新消息,
+      backgroundColor: '#a26ac8',
+      textColor: '#fff',
+      isCloseable: true,
+    },
+    {
       navbar: {
         title: 'ACOMOE',
         logo: {
@@ -85,7 +92,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '關於',
             items: [
               {
                 label: 'Tutorial',
@@ -94,27 +101,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '社群',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'BC413（中國大陸）',
+                href: 'https://www.bc413.com/categories/acomoe.46/',
+              }
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
