@@ -1,25 +1,16 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+title: 歡迎
+authors: [NiuBoss123]
+tags: [ACOMOE, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+Hello，我的朋友們，這裡是 ACOMOE 的官方博客哦
 
-Simply add Markdown files (or folders) to the `blog` directory.
+由於學校安排導致的計劃延期qwq，還請多多關注我們的博客和中國大陸論壇，這樣你就能知道我們的進度了
 
-Regular blog authors can be added to `authors.yml`.
+PS.只有這一個文章不是Docusaurus的，其他頁面仍在編寫中
 
-The blog post date can be extracted from filenames, such as:
+主站域名：[www.aco.moe](https://www.aco.moe)
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+中國大陸鏡像站：[acomoe.bc413.com](https://acomoe.bc413.com)
