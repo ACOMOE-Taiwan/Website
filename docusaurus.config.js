@@ -58,7 +58,7 @@ const config = {
     ({
       announcementBar: {
         id: 'support_us',
-        content: '本站仍在建設中，您可以關注我們的<a href="/blog">博客</a>或是<a href="https://www.bc413.com/categories/acomoe.46/">位於中國大陸的論壇</a>來獲得最新消息',
+        content: '本站仍在建設中，您可以關注我們的<a href="/blog">博客來獲得最新消息',
         backgroundColor: '#a26ac8',
         textColor: '#fff',
         isCloseable: true,
@@ -74,9 +74,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '相關文檔',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/BC413/ACOMOE-Website',
             label: '群组',
@@ -87,10 +87,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          //{
+          //  type: 'localeDropdown',
+          //  position: 'right',
+          //},
         ],
       },
       footer: {
@@ -115,7 +115,7 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/v93hkBeABR',
-              }
+              },
               {
                 label: 'Telegram',
                 href: 'https://t.me/ACOMOE_Official',
