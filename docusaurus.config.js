@@ -79,6 +79,11 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/BC413/ACOMOE-Website',
+            label: '群组',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/BC413/ACOMOE-Website',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,9 +109,17 @@ const config = {
             title: '社群',
             items: [
               {
-                label: 'BC413（中國大陸）',
-                href: 'https://www.bc413.com/categories/acomoe.46/',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/groups/acomoe',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/v93hkBeABR',
               }
+              {
+                label: 'Telegram',
+                href: 'https://t.me/ACOMOE_Official',
+              },
             ],
           },
           {
@@ -118,12 +131,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/BC413/ACOMOE-Website/',
+                href: 'https://github.com/ACOMOE-Taiwan',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ACOMOE , Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} ACOMOE Taiwan , Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
