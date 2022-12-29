@@ -50,21 +50,19 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-      '@docusaurus/preset-classic',
-      {
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
-        },
-      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} **/
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: '本站仍在建設中，您可以關注我們的<a href="/blog">博客來獲得最新消息',
+        backgroundColor: '#a26ac8',
+        textColor: '#fff',
+        isCloseable: true,
+      },
       navbar: {
         title: 'ACOMOE',
         logo: {
