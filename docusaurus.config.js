@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'BC413', // Usually your GitHub org/user name.
-  projectName: 'ACOMOE-Website', // Usually your repo name.
+  organizationName: 'ACOMOE-Taiwan', // Usually your GitHub org/user name.
+  projectName: 'Website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -78,19 +78,14 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/BC413/ACOMOE-Website',
-            label: '群组',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/BC413/ACOMOE-Website',
+            href: 'https://github.com/ACOMOE-Taiwan',
             label: 'GitHub',
             position: 'right',
           },
-          //{
-          //  type: 'localeDropdown',
-          //  position: 'right',
-          //},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -102,6 +97,27 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: '官方賬號',
+            items: [
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@BC413_Official',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/ACOMOE_Official',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/ACOMOEOfficial/',
+              },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@bc413_official',
               },
             ],
           },

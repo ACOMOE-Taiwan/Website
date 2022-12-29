@@ -12,5 +12,3 @@ Hello，我的朋友們，這裡是 ACOMOE 的官方博客哦
 PS.只有這一個文章不是Docusaurus的，其他頁面仍在編寫中
 
 主站域名：[www.aco.moe](https://www.aco.moe)
-
-中國大陸鏡像站：[acomoe.bc413.com](https://acomoe.bc413.com)
