@@ -50,6 +50,15 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+      '@docusaurus/preset-classic',
+      {
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+      },
     ],
   ],
 
@@ -152,7 +161,10 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2022 - ${new Date().getFullYear()} ACOMOE Taiwan , Inc. Built with Docusaurus.`,
+        copyright: `
+        <p><small>
+        Copyright © 2022 - ${new Date().getFullYear()} ACOMOE Taiwan. Bulit with <a href="https://docusaurus.io/zh-CN">Docusaurus</a>.
+        </small><p>`,
       },
       prism: {
         theme: lightCodeTheme,
